@@ -57,8 +57,8 @@
 }
 
 .books {
-  width: 450px;
-  height: 500px;
+  width: 500px;
+  height: 700px;
   /* margin: 0 150px 0 20px; */
 }
 
@@ -76,11 +76,10 @@ h3 {
   font-size: 20px;
   color: rgb(54, 50, 50);
   background-color: whitesmoke;
-  padding-bottom: 5px;
   /* background-color: rgb(54, 50, 50); */
   /* box-shadow: 15px 15px 15px rgb(60, 65, 60); */
-  padding: 20px;
-  border-radius: 5px;
+  padding: 40px;
+  border-radius: 10px;
   width: 600px;
   box-shadow: 5px 10px 20px rgb(54, 50, 50);
 }
@@ -139,6 +138,14 @@ h3 {
 .hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.blur-filter {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
 }
 
 #formular {
@@ -254,8 +261,10 @@ h4 {
 #close {
   background: linear-gradient(to right, rgb(134, 131, 131), #979899);
   color: white;
-  padding: 5px 10px;
-  width: 100px;
+  /* padding: 5px 10px; */
+  padding: 10px 15px;
+  width: 160px;
+  font-size: 15px;
   cursor: pointer;
   border-radius: 5px;
   border: 0;

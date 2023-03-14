@@ -24,13 +24,16 @@ menuLinks.addEventListener("click", hideMobileMenu);
 const open = document.getElementById("open");
 const modal_container = document.getElementById("modal_container");
 const close = document.getElementById("close");
+const background = document.querySelector(".columns");
 
 open.addEventListener("click", () => {
   modal_container.classList.add("show");
+  background.classList.add("blur-filter");
 });
 
 close.addEventListener("click", () => {
   modal_container.classList.remove("show");
+  background.classList.remove("blur-filter");
 });
 
 // Scroll reveal left
