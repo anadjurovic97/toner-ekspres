@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(to right, rgb(54, 50, 50), #979899);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  height: 100vh;
+}
+
+.success-message {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  padding: 10px;
+  color: whitesmoke;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 40vh;
+  box-shadow: 10px 10px 20px #1d232b;
+}
+
+.home-message a {
+  color: white;
+  font-size: 20px;
+}
